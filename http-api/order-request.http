@@ -1,0 +1,12 @@
+POST http://localhost:8081/api/order
+Content-Type: application/json
+
+{
+  "orderLineItemsDtoList": [
+    {
+      "skuCode": "iPhone",
+      "price": 1000,
+      "quantity": 1
+    }
+  ]
+}

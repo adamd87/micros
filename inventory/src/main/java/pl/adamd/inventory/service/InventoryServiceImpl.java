@@ -19,13 +19,13 @@ public class InventoryServiceImpl implements InventoryService {
     @Override
     @Transactional(readOnly = true)
     public List<InventoryResponse> isInStock(List<String> skuCode) {
-        log.info("Wait Started");
-        try {
-            Thread.sleep(10000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
-        log.info("Wait Ended");
+//        log.info("Wait Started");
+//        try {
+//            Thread.sleep(10000);
+//        } catch (InterruptedException e) {
+//            throw new RuntimeException(e);
+//        }
+//        log.info("Wait Ended");
         return inventoryRepository.findBySkuCodeIn(skuCode).stream().map(inventory ->
             InventoryResponse.builder()
                     .skuCode(inventory.getSkuCode())

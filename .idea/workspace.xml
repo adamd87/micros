@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84cce6d6-743f-47ed-a6bd-9a8f651c6068" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/inventory/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/pl/adamd/inventory/InventoryApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/pl/adamd/inventory/controller/InventoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/pl/adamd/inventory/model/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/pl/adamd/inventory/repository/InventoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/pl/adamd/inventory/service/InventoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/pl/adamd/inventory/service/InventoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory/src/test/java/pl/adamd/inventory/InventoryApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/database-docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/database-docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/pl/adamd/orderservice/service/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/pl/adamd/orderservice/service/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +94,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\adamd\IdeaProjects\micros\docker" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean verify" />
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.InventoryApplication">
     <configuration name="order-request | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http-api/order-request.http" requestIdentifier="#1" runType="Run single request">

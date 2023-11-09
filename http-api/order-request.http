@@ -1,5 +1,5 @@
 ### should return HttpStatus 201 and info: Order Placed Successfully
-POST http://localhost:8081/api/order
+POST http://localhost:8080/api/order
 Content-Type: application/json
 
 {
@@ -13,7 +13,7 @@ Content-Type: application/json
 }
 
 ### should throw excepotion
-POST http://localhost:8081/api/order
+POST http://localhost:8080/api/order
 Content-Type: application/json
 
 {

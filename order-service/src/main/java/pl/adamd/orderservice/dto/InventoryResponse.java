@@ -1,4 +1,4 @@
-package pl.adamd.inventory.dto;
+package pl.adamd.orderservice.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

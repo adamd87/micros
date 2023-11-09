@@ -1,3 +1,4 @@
+### should return HttpStatus 201 and info: Order Placed Successfully
 POST http://localhost:8081/api/order
 Content-Type: application/json
 
@@ -5,6 +6,25 @@ Content-Type: application/json
   "orderLineItemsDtoList": [
     {
       "skuCode": "iPhone",
+      "price": 1000,
+      "quantity": 1
+    }
+  ]
+}
+
+### should throw excepotion
+POST http://localhost:8081/api/order
+Content-Type: application/json
+
+{
+  "orderLineItemsDtoList": [
+    {
+      "skuCode": "iPhone",
+      "price": 1000,
+      "quantity": 1
+    },
+    {
+      "skuCode": "iPhone_13",
       "price": 1000,
       "quantity": 1
     }

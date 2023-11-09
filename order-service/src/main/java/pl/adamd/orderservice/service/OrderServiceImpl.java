@@ -2,6 +2,7 @@ package pl.adamd.orderservice.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import pl.adamd.orderservice.dto.OrderLineItemsDto;
 import pl.adamd.orderservice.dto.OrderRequest;
 import pl.adamd.orderservice.model.Order;
@@ -14,6 +15,7 @@ import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
+@Transactional
 public class OrderServiceImpl implements OrderService {
 
     private final OrderRepository orderRepository;

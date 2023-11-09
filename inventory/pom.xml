@@ -7,10 +7,10 @@
 		<artifactId>micros</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>order-service</artifactId>
+	<artifactId>inventory</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>order-service</name>
-	<description>order-service</description>
+	<name>inventory</name>
+	<description>inventory</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -40,6 +40,5 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
 
 </project>

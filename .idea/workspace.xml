@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84cce6d6-743f-47ed-a6bd-9a8f651c6068" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/inventory/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-api/inventory-request.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "inventory",
     "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "C:/Users/adamd/IdeaProjects/micros/inventory",
+    "last_opened_file_path": "C:/Users/adamd/IdeaProjects/micros/http-api",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -87,6 +87,7 @@
       <recent name="pl.adamd.orderservice.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\adamd\IdeaProjects\micros\http-api" />
       <recent name="C:\Users\adamd\IdeaProjects\micros\inventory" />
       <recent name="C:\Users\adamd\IdeaProjects\micros\order-service" />
       <recent name="C:\Users\adamd\IdeaProjects\micros\product-service" />
@@ -101,6 +102,9 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.InventoryApplication">
+    <configuration name="inventory-request | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http-api/inventory-request.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="order-request | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http-api/order-request.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -164,6 +168,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.inventory-request | #1" />
         <item itemvalue="HTTP Request.order-request | #1" />
         <item itemvalue="Docker.docker/mongo.yaml.mysql: Compose Deployment" />
         <item itemvalue="JUnit.ProductControllerTest" />

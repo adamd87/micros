@@ -12,17 +12,26 @@ services:
     image: mongo-express
     restart: always
     ports:
-      - "8081:8081"
+      - "8089:8081"
     environment:
       - ME_CONFIG_MONGODB_ADMINUSERNAME=admin
       - ME_CONFIG_MONGODB_ADMINPASSWORD=password
       - ME_CONFIG_MONGODB_SERVER=mongodb
-  mysql:
+  mysql-order:
     image: mysql
     ports:
-      - "3306:3306"
+      - "3307:3306"
     environment:
-      - MYSQL_DATABASE=db
+      - MYSQL_DATABASE=order
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=password
+      - MYSQL_ROOT_PASSWORD=password
+  mysql-inventory:
+    image: mysql
+    ports:
+      - "3308:3306"
+    environment:
+      - MYSQL_DATABASE=inventory
       - MYSQL_USER=user
       - MYSQL_PASSWORD=password
       - MYSQL_ROOT_PASSWORD=password
